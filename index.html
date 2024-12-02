@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxurious Sign Up</title>
+    <link rel="stylesheet" href="figma.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <div class="welcome-text">
+                <h1>WELCOME<br>TO<br>Luxurious</h1>
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="logo">
+                <img src="image copy 2.png" alt="Luxurious Logo">
+            </div>
+            <h2>SIGN UP</h2>
+            <form id="signup-form">               
+                <input type="text" id="fullname" placeholder="Username" required>
+                <input type="email" id="email" placeholder="Email" required>                             
+                <input type="password" id="password" placeholder="Password" required>
+                <input type="password" id="confirm-password" placeholder="Confirm Password" required>              
+                <button type="submit">Sign Up</button>
+            </form>
+            <p class="signin">
+                Already have an account? <a href="figma.html">Login here</a>
+            </p>
+            <p id="error-message" style="color:red; display:none;"></p>
+        </div>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>
